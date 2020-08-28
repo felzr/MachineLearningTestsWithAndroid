@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MachineLearningTests</string>
+    <string name="abrir_camera">Abrir Camera</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="open_galery">Open Galery</string>
+    <string name="predict">predict</string>
+    <string name="dogs_and_cats_classification">Dogs and Cats Classification</string>
 </resources>

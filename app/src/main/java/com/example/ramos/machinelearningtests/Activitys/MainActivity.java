@@ -1,4 +1,4 @@
-package com.example.jean.machinelearningtests;
+package com.example.ramos.machinelearningtests.Activitys;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.ramos.machinelearningtests.R;
+
 public class MainActivity extends AppCompatActivity {
 
-    private Button simplePredict, fuelPredict;
+    private Button simplePredict, fuelPredict, digitRecognizing, dogsAndCatsClassification;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FuelPredictionActivity.class);
+                startActivity(i);
+            }
+        });
+        digitRecognizing = findViewById(R.id.digit_recognizing);
+        digitRecognizing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, RecognizingDigitsActivity.class);
+                startActivity(i);
+            }
+        });
+        dogsAndCatsClassification = findViewById(R.id.dogs_cats_classification);
+        dogsAndCatsClassification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, CatsAndDogsSorterActivity.class);
                 startActivity(i);
             }
         });

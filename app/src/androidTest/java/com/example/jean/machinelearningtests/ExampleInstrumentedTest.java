@@ -1,4 +1,4 @@
-package com.example.jean.machinelearningtests;
+package com.example.ramos.machinelearningtests;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.jean.machinelearningtests", appContext.getPackageName());
+        assertEquals("com.example.ramos.machinelearningtests", appContext.getPackageName());
     }
 }

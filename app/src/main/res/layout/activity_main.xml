@@ -6,17 +6,29 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Activitys.MainActivity">
 
     <Button
         android:id="@+id/simple_predict"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simple Predict Activity"></Button>
+        android:text="Simple Predict"></Button>
 
     <Button
         android:id="@+id/fuel_predict"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fuel Predict"></Button>
+
+    <Button
+        android:id="@+id/digit_recognizing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digit Recognizing"></Button>
+
+    <Button
+        android:id="@+id/dogs_cats_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dogs_and_cats_classification"></Button>
 </LinearLayout>

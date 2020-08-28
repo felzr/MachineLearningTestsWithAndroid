@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jean.machinelearningtests">
+    package="com.example.ramos.machinelearningtests">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FuelPredictionActivity"></activity>
-        <activity android:name=".SimplePredictActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activitys.CatsAndDogsSorterActivity"></activity>
+        <activity android:name=".Activitys.RecognizingDigitsActivity" />
+        <activity android:name=".Activitys.FuelPredictionActivity" />
+        <activity android:name=".Activitys.SimplePredictActivity" />
+        <activity android:name=".Activitys.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.example.jean.machinelearningtests;
+package com.example.ramos.machinelearningtests;
 
 import org.junit.Test;
 

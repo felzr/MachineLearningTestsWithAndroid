@@ -1,4 +1,4 @@
-package com.example.jean.machinelearningtests;
+package com.example.ramos.machinelearningtests.Activitys;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example.ramos.machinelearningtests.R;
 
 import org.tensorflow.lite.Interpreter;
 

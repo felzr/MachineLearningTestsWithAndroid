@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_height="match_parent"
-    tools:context=".SimplePredictActivity">
+    tools:context=".Activitys.SimplePredictActivity">
     <EditText
         android:layout_margin="10dp"
         android:inputType="number"
